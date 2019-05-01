@@ -11,33 +11,46 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  min-height: 100%;
   background-color: #3a889e;
+  margin: 0;
+  padding: 0;
 }
 
 
 /* Class */
 
 .header-text {
+  margin-top: 6px;
+  margin-bottom: 0;
+  text-align: center;
   background-color: #e1f1f3;
-  min-height: 5rem;
+  min-height: 7rem;
   font-family: 'Roboto Slab', serif;
-  font-size: 2.5rem;
+  font-size: 4rem;
   color: #445465;
 }
 
 .navbar {
   display: flex;
-
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  list-style: none;
   min-height: 3rem;
   background-color: #54bdd2;
-  min-padding: 2rem;
+
 
 }
 
+li {
+  padding: 24px;
+}
+
 /* main */
-.main-container {}
+.main-container {
+  margin: 0;
+  padding: 0;
+}
 
 .side_picture {}
 
